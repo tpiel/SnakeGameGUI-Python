@@ -54,7 +54,7 @@ def gameOver():
     pygame.display.flip() # to set the fps
     time.sleep(5)
     pygame.quit() # exit game window
-    sys.exit() # exit cmd console
+    webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ') # exit cmd console
 
 def showScore(choice=1):
     sFont = pygame.font.SysFont('monaco', 42) #choose font name and size
@@ -74,7 +74,7 @@ while True:
     for event in pygame.event.get(): # accepts the event
         if event.type == pygame.QUIT: # quit event
             pygame.quit()
-            sys.exit()
+            webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
         elif event.type == pygame.KEYDOWN: # when keyboard key is pressed
             if event.key == pygame.K_RIGHT or event.key == ord('d'): # Right Move
                 changeTo = 'RIGHT'
