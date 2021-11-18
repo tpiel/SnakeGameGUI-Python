@@ -1,5 +1,6 @@
 # 3720 GitHub Practice with forked Python SNAKE GAME
 ### Scrum and Scrummer Team's repo - Madison, Kristopher, Matthew, Mike
+### I have forked it and made some color changes in game. 
 
 ** This is a python based GUI game of Snake **
 
