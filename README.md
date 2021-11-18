@@ -1,6 +1,15 @@
 # 3720 GitHub Pracitce with forked Python SNAKE GAME
 ### Scrum and Scrummer Team's repo - Madison, Kristopher, Matthew, Mike
 
+## Installation
+
+Please add required dependencies. Type the following into your command line:
+
+```
+pip -r install requirements.txt
+```
+
+
 ** This is a python based GUI game of Snake **
 
 ** Make sure to install Pygame to run the program
